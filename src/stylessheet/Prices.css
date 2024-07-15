@@ -1,0 +1,23 @@
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.price-first {
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.price-second {
+  font-family: Fraunces;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}

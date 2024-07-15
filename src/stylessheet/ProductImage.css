@@ -1,0 +1,17 @@
+.image-container img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 540px){
+
+  
+    .image-container img { 
+      border-radius: 10px 10px 0 0;
+    }
+
+  
+    }
